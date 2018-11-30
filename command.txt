@@ -1,0 +1,41 @@
+whoami		-> Mostra usuario atual logado.
+echo		-> Imprime mensagem
+ls 			-> Lista diretorios e arquivos
+cd 			-> Navega pelo diretorios
+mkdir		-> Cria diretorio
+rmdir		-> Remove diretorio
+bash		-> Interpretador de comando, representa acões lidas do teclado ou de um arquivo executavel
+cp 			-> Copia arquivos
+mv 			-> Move arquivos
+rm 			-> Remove arquivos
+zip 		-> Compacta arquivos e diretorios no formato ZIP
+unzip 		-> Descompacta arquivos no formato ZIP
+tar -czf 	-> Compacta arquivos e diretorios no fomato ZIP com compressão TAR 
+tar -xzf 	-> Desompacta arquivos e diretorios no fomato ZIP com compressão TAR
+touch 		-> Cria arquivo e pode alterar os parametros deste arquivo
+date 		-> Mostra data atual
+less 		-> Permite ler o arquivo realizando paginação
+head		-> Permite ler o inicio do arquivo, o parametro -n permite exibir a quantidades de linhas iniciais
+tail		-> Permite ler o final do arquivo, o parametro -n permite exibir a quantidades de linhas finais
+vi			-> Editor de texto utilizado pela console do linux
+
+kill 		-> Utilizado para enviar e matar um processo juntamento com PID que refere-se ao numero do processo 
+ps 			-> Verifica os processos em execução
+grep 		-> Busca string e padrões dentro de arquivos
+killall		-> Matar processo informando apenas o nome
+top			-> Exibe os processos em execução no sistema
+jobs		-> Mostra os programas/tarefas que estão em execução ou parados em segundo plano
+bg			-> Coloca os programas/tarefas em segundo plano pode ser vista com o comando ps
+fg			-> Coloca os programas/tarefas em foreground, ou seja, presa a tela do terminal
+pstree		-> Lista a arvores de processos pode ser usado o PID
+&			-> Abre a aplicação em segundo plano ex. FIREFOX &
+sh			-> Executa programa shel script ex. ./executaTeste.sh ou sh executaTeste 		
+chmod		-> Atribui permissão ao usuario ou grupo sendo -r=leitura, -w=escrita e -x=execução
+locate		-> Busca em um banco de dados do linux por nomes de arquivos em todo o disco 	
+updatedb	-> Atualiza o banco de dados que guarda os nome de arquivos os quais o locate utiliza
+find 		-> Busca por arquivos na arvore de diretorio, localizar arquivos a partir do local que informamos checando os subdiretorios
+which 		-> Mostra o caminho do programa/arquivo  	
+sudo 		-> Executa comandos/programas/tarefas com permissão de root
+passwd		-> Atera a senha do usuario
+su 			-> Troca de usuario
+adduser		-> Cria novo usuario 
